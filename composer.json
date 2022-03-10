@@ -1,0 +1,30 @@
+{
+    "name": "larabitdev/flags",
+    "description": "SVG flags",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Larabit\\Flags\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Ghiath Alkhatib",
+            "email": "larabit@larabit.org",
+            "homepage": "https://larabit.org",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "^8.0",
+        "blade-ui-kit/blade-icons": "^1.2.2"
+    },
+    "minimum-stability": "dev",
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Larabit\\Flags\\flagsServiceProvider"
+            ]
+        }
+    }
+}
