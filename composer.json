@@ -16,8 +16,8 @@
         }
     ],
     "require": {
-        "php": "^8.0",
-        "blade-ui-kit/blade-icons": "^1.2.2"
+        "php": "^8.0"
+      
     },
     "minimum-stability": "dev",
     "extra": {
